@@ -1,6 +1,6 @@
 ---
 title: "Projectiles Questions"
-author: "Aaron Chin"
+author: "Aaron"
 date: "29/01/2021"
 output:
   pdf_document: default
