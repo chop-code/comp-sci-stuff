@@ -1,0 +1,116 @@
+---
+title: "Projectiles Questions"
+author: "Aaron Chin"
+date: "29/01/2021"
+output:
+  pdf_document: default
+  html_document:
+    df_print: paged
+---
+
+1. **_A ball is thrown horizontally from the top of a vertical cliff. The cliff is 50 m high and the ball lands 60 m from the bottom of the cliff._**
+    a) _How long does it take for the ball to reach the bottom of the cliff?_
+    \begin{align*}
+    s &= ut + \frac{1}{2}at^2\\
+    -50 &= 0 \times t + \frac{1}{2} \times -9.81 \times t^2\\
+    \frac{1}{2} \times -9.81t^2 &= -50\\
+    \frac{1}{2}\times 9.81t^2 &= 50\\
+    9.81t^2 &= 100\\
+    t^2 &= 10.19...\\
+    t &= 3.19\: s \quad (3s.f.)
+    \end{align*}
+    b) _What is the horizontal speed of the ball?_
+    \begin{align*}
+    v &= \frac{s}{t}\\
+    &= \frac{60}{3.19...}\\
+    &= 18.8\:ms^{-1}\quad(3s.f.)
+    \end{align*}
+    c) _What is the vertical speed of the ball as it lands?_
+    \begin{align*}
+    s_v = -50 \quad u_v = 0 \quad v_v &= v_v \quad a_v = -9.81 \quad t = 3.19\\\\
+    v^2 - u^2 &= 2as\\
+    v^2 &= u^2 + 2as\\
+    v &= \sqrt{u^2 + 2as}\\
+    &= \sqrt{0^2 + 2\times-9.81\times-50}\\
+    &= 31.3 \: ms^{-1} \quad (3s.f.)
+    \end{align*}
+
+2. _**A scientist wants to find out how fast he can throw a ball. He throws horizontally from a height of 2 m and it lands 20 m away from where he is standing. Calculate the initial velocity of the ball.**_     
+\begin{align*}
+s_v = -2 \quad u_v = 0 \quad v_v &= ? \quad a_v = -9.81 \quad t_v = t_v\\
+s &= ut + \frac{1}{2}at^2\\
+-2 &= 0 \times t \times\frac{1}{2}\times -9.81 \times t^2\\
+-2 &= \frac{1}{2} \times -9.81 \times t^2\\
+-4 &= -9.81t^2\\
+9.81t^2 &= 4\\
+t^2 &= \frac{4}{9.81}\\
+t &= \sqrt{\frac{4}{9.81}}\\
+t &= 0.6385... \: s\\\\
+v_h = v_h \quad s_h &= 20 \quad t=0.6835...\\
+v &= \frac{s}{t}\\
+&= 31.3 \: ms^{-1} \quad(3s.f.)
+\end{align*}
+3. _**A tennis ball is hit horizontally from the top of a high building. It takes 4 seconds to reach the ground and it lands 80 m from the building.**_
+    a) _What is the height of the building?_
+    \begin{align*}
+    s&= u_vt + \frac{1}{2}at^2 \\
+    &= 0 \times 4 + \frac{1}{2}\times -9.81 \times 4^2\\
+    &= -78.48 \; m\\
+    \text{height}&= 78.48 \; m
+    \end{align*}
+    b) _At what vertical velocity does the ball hit the ground?_
+    \begin{align*}
+    v &= u + at\\
+    &= 0 + -9.81 \times 4\\
+    &= -39.24 \: ms^{-1}
+    \end{align*}
+    c) _What is the horizontal velocity?_
+    \begin{align*}
+    v_h &= \frac{s_h}{t}\\
+    &= \frac{80}{4}\\
+    &= 20 \: ms^{-1}\\
+    \end{align*}
+    d) _What is its resultant velocity and at what angle does it hit the ground?_
+    \begin{align*}
+    v_v &= -39.24 \\
+    v_h &= 20 \\
+    v_R &= \sqrt{(-39.24)^2 + 20^2}\\
+    &= 44.04\:ms^{-1}\\
+    \end{align*}
+    ![](C:\Users\M3RCY\Documents\Aaron\A-Level\Physics\Booklets\tex notes\Projectiles Questions\3d.png){ width=40% }
+    \begin{align*}
+    \tan\theta &= \frac{39.24}{20}\\
+    &= 1.962\\
+    \theta &= 63.0^{\circ}\quad (3s.f.)\\\\
+    v_R &= 44.04\:ms^{-1}\text{, }63.0^{\circ} \text{ from the horizontal (ground upon impact).}
+    \end{align*}
+    
+4. _**An object is projected horizontally at a speed of $16 \: ms^{-1}$ into the sea from a cliff top of height 45.0 m. Calculate:**_
+    a) _How long it takes to reach the sea._
+    \begin{align*}
+    s_v = -45 \quad u_v = 0 \quad v_v &= v_v \quad a_v = -9.81 \quad t = t\\
+    s_v &= u_vt + \frac{1}{2}a_vt^2\\
+    -45 &= 0 \times t + \frac{1}{2}\times -9.81 \times t^2\\
+    -45 &= \frac{1}{2}\times -9.81 \times t^2 \\
+    -90 &= -9.81t^2\\
+    9.81t^2 &= 90 \\
+    t^2 &= 9.17...\\
+    t&= 3.03 \: s \quad(3s.f.)
+    \end{align*}
+    b) _How far it travels horizontally._
+    \begin{align*}
+    v_h &= \frac{s_h}{t}\\
+    s_h &= v_h \times t\\
+    &= 16 \times 3.03...\\
+    &= 48.5 \: m \quad (3s.f.)
+    \end{align*}
+    c) _Its impact vertical velocity._
+    \begin{align*}
+     s_v = -45 \quad u_v = 0 \quad v_v &= v_v \quad a_v = -9.81 \quad t = t\\
+     v_v^2 - u^2 &= 2as\\
+     v_v^2 &= u^2 + 2as\\
+     v_v &= \sqrt{u^2 + 2as}\\
+     &= \sqrt{0 + 2 \times -9.81 \times -45}\\
+     &= 29.7 \: ms^{-1} \quad (3s.f.)
+     \end{align*}
+    
